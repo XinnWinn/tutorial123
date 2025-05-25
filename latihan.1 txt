@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Identitas Mohammad Aryadita - AKADEMI CRYPTO</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f7f6; /* Background halaman */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .id-card {
+            width: 340px; /* Ukuran kartu */
+            border: none;
+            border-radius: 18px; /* Sudut lebih membulat */
+            padding: 30px 25px; /* Padding di dalam kartu */
+            background-color: #ffffff; /* Background dasar kartu */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih kuat */
+            text-align: center;
+            position: relative;
+            overflow: hidden; /* Penting untuk background image */
+            color: #333; /* Warna teks default */
+        }
+
+        /* Style untuk Background Image (Aktifkan dan Ganti URL di sini) */
+        /* Hilangkan komentar /* dan */ di sekitar blok ini untuk mengaktifkan background gambar */
+        /*
+        .id-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('path/to/your/gambar_background_hd.jpg'); /* **GANTI INI** dengan path/link gambar background
